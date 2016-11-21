@@ -226,12 +226,22 @@ margin-left:30px;
   flex-direction: row;
   justify-content: space-between;
 }
+	.container-two {
+		margin-left: 0;
+		margin-right: 0;
+	}
 .name {
+	float: left;
+	margin-left: 7%;
   margin-right: auto;
 }
+	.container-one p {
+		margin-left: 5%;
+		text-align: left;
+	}
 .main-nav {
   margin-top: 0;
-  align-self: center;
+  float: right;
 }
 .main-nav li {
     margin-left: .65em;
